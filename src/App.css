@@ -1,0 +1,128 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rebeccapurple;
+}
+
+.container {
+  padding: 25px;
+  background: #FFF;
+  border-radius: 5px;
+  height: 70vh;
+}
+
+.header{
+  text-align: center;
+
+}
+
+input[type="text"] {
+  padding: 20px;
+  border-radius: 5px;
+  border: none;
+  border: 1px solid gray;
+  width: 300px;
+}
+
+button {
+  padding: 20px;
+  border-radius: 5px;
+  border: none;
+  border: 1px solid;
+  margin-left: 10px;
+}
+
+.list li {
+  list-style: none;
+  position: relative;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.list {
+  overflow-y: scroll;
+  height: 479px;
+  margin-top: 15px;
+}
+
+.list li input {
+  width: 100% !important;
+  height: 30px;
+  margin-top: 0;
+}
+
+.list li .buttons {
+  position: absolute;
+  top: 0;
+  right: 5px;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+}
+.list li .buttons button{
+  border: none;
+  padding: 0;
+}
+
+.from-container{
+  margin-top: 15px;
+}
+
+.completed {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+
+.modal_Wrapper {
+  padding: 30px;
+  background: gray;
+  position: absolute;
+  width: 379px;
+  border-radius: 5px;
+  top: 0;
+  bottom: 0;
+  height: fit-content;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.modal_Wrapper h3{
+  text-align: center;
+}
+.modal_Wrapper .modal_container .modal_buttons button {
+  margin-left: 0;
+  padding: 10px;
+}
+.modal_Wrapper .modal_container .modal_buttons  {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
